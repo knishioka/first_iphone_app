@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE1617DF1590552B00D53C63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1617DE1590552A00D53C63 /* UIKit.framework */; };
+		BE1617E11590552B00D53C63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1617E01590552B00D53C63 /* Foundation.framework */; };
+		BE1617E31590552B00D53C63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1617E21590552B00D53C63 /* CoreGraphics.framework */; };
+		BE1617E91590552B00D53C63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE1617E71590552B00D53C63 /* InfoPlist.strings */; };
+		BE1617EB1590552B00D53C63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1617EA1590552B00D53C63 /* main.m */; };
+		BE1617EF1590552B00D53C63 /* first_appAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1617EE1590552B00D53C63 /* first_appAppDelegate.m */; };
+		BE1617F21590552B00D53C63 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1617F01590552B00D53C63 /* MainStoryboard.storyboard */; };
+		BE1617F51590552B00D53C63 /* first_appViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1617F41590552B00D53C63 /* first_appViewController.m */; };
+		BE1617FD1590552B00D53C63 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1617FC1590552B00D53C63 /* SenTestingKit.framework */; };
+		BE1617FE1590552B00D53C63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1617DE1590552A00D53C63 /* UIKit.framework */; };
+		BE1617FF1590552B00D53C63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1617E01590552B00D53C63 /* Foundation.framework */; };
+		BE1618071590552B00D53C63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE1618051590552B00D53C63 /* InfoPlist.strings */; };
+		BE16180A1590552B00D53C63 /* mitakalabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1618091590552B00D53C63 /* mitakalabTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE1618001590552B00D53C63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE1617D11590552A00D53C63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE1617D91590552A00D53C63;
+			remoteInfo = mitakalab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE1617DA1590552A00D53C63 /* mitakalab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mitakalab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1617DE1590552A00D53C63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE1617E01590552B00D53C63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE1617E21590552B00D53C63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE1617E61590552B00D53C63 /* mitakalab-Info.plist */ = {isa = PBXFileReference; path = "mitakalab-Info.plist"; sourceTree = "<group>"; };
+		BE1617E81590552B00D53C63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE1617EA1590552B00D53C63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE1617EC1590552B00D53C63 /* mitakalab-Prefix.pch */ = {isa = PBXFileReference; path = "mitakalab-Prefix.pch"; sourceTree = "<group>"; };
+		BE1617ED1590552B00D53C63 /* first_appAppDelegate.h */ = {isa = PBXFileReference; path = first_appAppDelegate.h; sourceTree = "<group>"; };
+		BE1617EE1590552B00D53C63 /* first_appAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = first_appAppDelegate.m; sourceTree = "<group>"; };
+		BE1617F11590552B00D53C63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BE1617F31590552B00D53C63 /* first_appViewController.h */ = {isa = PBXFileReference; path = first_appViewController.h; sourceTree = "<group>"; };
+		BE1617F41590552B00D53C63 /* first_appViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = first_appViewController.m; sourceTree = "<group>"; };
+		BE1617FB1590552B00D53C63 /* mitakalabTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mitakalabTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1617FC1590552B00D53C63 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BE1618041590552B00D53C63 /* mitakalabTests-Info.plist */ = {isa = PBXFileReference; path = "mitakalabTests-Info.plist"; sourceTree = "<group>"; };
+		BE1618061590552B00D53C63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE1618081590552B00D53C63 /* mitakalabTests.h */ = {isa = PBXFileReference; path = mitakalabTests.h; sourceTree = "<group>"; };
+		BE1618091590552B00D53C63 /* mitakalabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mitakalabTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE1617D71590552A00D53C63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1617DF1590552B00D53C63 /* UIKit.framework in Frameworks */,
+				BE1617E11590552B00D53C63 /* Foundation.framework in Frameworks */,
+				BE1617E31590552B00D53C63 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1617F71590552B00D53C63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1617FD1590552B00D53C63 /* SenTestingKit.framework in Frameworks */,
+				BE1617FE1590552B00D53C63 /* UIKit.framework in Frameworks */,
+				BE1617FF1590552B00D53C63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE1617CF1590552A00D53C63 = {
+			isa = PBXGroup;
+			children = (
+				BE1617E41590552B00D53C63 /* mitakalab */,
+				BE1618021590552B00D53C63 /* mitakalabTests */,
+				BE1617DD1590552A00D53C63 /* Frameworks */,
+				BE1617DB1590552A00D53C63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE1617DB1590552A00D53C63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE1617DA1590552A00D53C63 /* mitakalab.app */,
+				BE1617FB1590552B00D53C63 /* mitakalabTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE1617DD1590552A00D53C63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE1617DE1590552A00D53C63 /* UIKit.framework */,
+				BE1617E01590552B00D53C63 /* Foundation.framework */,
+				BE1617E21590552B00D53C63 /* CoreGraphics.framework */,
+				BE1617FC1590552B00D53C63 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE1617E41590552B00D53C63 /* mitakalab */ = {
+			isa = PBXGroup;
+			children = (
+				BE1617ED1590552B00D53C63 /* first_appAppDelegate.h */,
+				BE1617EE1590552B00D53C63 /* first_appAppDelegate.m */,
+				BE1617F01590552B00D53C63 /* MainStoryboard.storyboard */,
+				BE1617F31590552B00D53C63 /* first_appViewController.h */,
+				BE1617F41590552B00D53C63 /* first_appViewController.m */,
+				BE1617E51590552B00D53C63 /* Supporting Files */,
+			);
+			path = mitakalab;
+			sourceTree = "<group>";
+		};
+		BE1617E51590552B00D53C63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE1617E61590552B00D53C63 /* mitakalab-Info.plist */,
+				BE1617E71590552B00D53C63 /* InfoPlist.strings */,
+				BE1617EA1590552B00D53C63 /* main.m */,
+				BE1617EC1590552B00D53C63 /* mitakalab-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE1618021590552B00D53C63 /* mitakalabTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE1618081590552B00D53C63 /* mitakalabTests.h */,
+				BE1618091590552B00D53C63 /* mitakalabTests.m */,
+				BE1618031590552B00D53C63 /* Supporting Files */,
+			);
+			path = mitakalabTests;
+			sourceTree = "<group>";
+		};
+		BE1618031590552B00D53C63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE1618041590552B00D53C63 /* mitakalabTests-Info.plist */,
+				BE1618051590552B00D53C63 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE1617D91590552A00D53C63 /* mitakalab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE16180D1590552B00D53C63 /* Build configuration list for PBXNativeTarget "mitakalab" */;
+			buildPhases = (
+				BE1617D61590552A00D53C63 /* Sources */,
+				BE1617D71590552A00D53C63 /* Frameworks */,
+				BE1617D81590552A00D53C63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mitakalab;
+			productName = mitakalab;
+			productReference = BE1617DA1590552A00D53C63 /* mitakalab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE1617FA1590552B00D53C63 /* mitakalabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1618101590552B00D53C63 /* Build configuration list for PBXNativeTarget "mitakalabTests" */;
+			buildPhases = (
+				BE1617F61590552B00D53C63 /* Sources */,
+				BE1617F71590552B00D53C63 /* Frameworks */,
+				BE1617F81590552B00D53C63 /* Resources */,
+				BE1617F91590552B00D53C63 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE1618011590552B00D53C63 /* PBXTargetDependency */,
+			);
+			name = mitakalabTests;
+			productName = mitakalabTests;
+			productReference = BE1617FB1590552B00D53C63 /* mitakalabTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE1617D11590552A00D53C63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = first_app;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BE1617D41590552A00D53C63 /* Build configuration list for PBXProject "mitakalab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE1617CF1590552A00D53C63;
+			productRefGroup = BE1617DB1590552A00D53C63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE1617D91590552A00D53C63 /* mitakalab */,
+				BE1617FA1590552B00D53C63 /* mitakalabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE1617D81590552A00D53C63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1617E91590552B00D53C63 /* InfoPlist.strings in Resources */,
+				BE1617F21590552B00D53C63 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1617F81590552B00D53C63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1618071590552B00D53C63 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BE1617F91590552B00D53C63 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE1617D61590552A00D53C63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1617EB1590552B00D53C63 /* main.m in Sources */,
+				BE1617EF1590552B00D53C63 /* first_appAppDelegate.m in Sources */,
+				BE1617F51590552B00D53C63 /* first_appViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1617F61590552B00D53C63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE16180A1590552B00D53C63 /* mitakalabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE1618011590552B00D53C63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE1617D91590552A00D53C63 /* mitakalab */;
+			targetProxy = BE1618001590552B00D53C63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE1617E71590552B00D53C63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1617E81590552B00D53C63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE1617F01590552B00D53C63 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1617F11590552B00D53C63 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		BE1618051590552B00D53C63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1618061590552B00D53C63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE16180B1590552B00D53C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE16180C1590552B00D53C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE16180E1590552B00D53C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mitakalab/mitakalab-Prefix.pch";
+				INFOPLIST_FILE = "mitakalab/mitakalab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE16180F1590552B00D53C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mitakalab/mitakalab-Prefix.pch";
+				INFOPLIST_FILE = "mitakalab/mitakalab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BE1618111590552B00D53C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mitakalab.app/mitakalab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mitakalab/mitakalab-Prefix.pch";
+				INFOPLIST_FILE = "mitakalabTests/mitakalabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BE1618121590552B00D53C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mitakalab.app/mitakalab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mitakalab/mitakalab-Prefix.pch";
+				INFOPLIST_FILE = "mitakalabTests/mitakalabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE1617D41590552A00D53C63 /* Build configuration list for PBXProject "mitakalab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE16180B1590552B00D53C63 /* Debug */,
+				BE16180C1590552B00D53C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE16180D1590552B00D53C63 /* Build configuration list for PBXNativeTarget "mitakalab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE16180E1590552B00D53C63 /* Debug */,
+				BE16180F1590552B00D53C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE1618101590552B00D53C63 /* Build configuration list for PBXNativeTarget "mitakalabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1618111590552B00D53C63 /* Debug */,
+				BE1618121590552B00D53C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE1617D11590552A00D53C63 /* Project object */;
+}
