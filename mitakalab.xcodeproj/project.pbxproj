@@ -20,6 +20,8 @@
 		BE1617FF1590552B00D53C63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1617E01590552B00D53C63 /* Foundation.framework */; };
 		BE1618071590552B00D53C63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE1618051590552B00D53C63 /* InfoPlist.strings */; };
 		BE16180A1590552B00D53C63 /* mitakalabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1618091590552B00D53C63 /* mitakalabTests.m */; };
+		BE161816159057AF00D53C63 /* SpotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE161814159057AF00D53C63 /* SpotViewController.m */; };
+		BE161817159057AF00D53C63 /* SpotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE161815159057AF00D53C63 /* SpotViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +39,24 @@
 		BE1617DE1590552A00D53C63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BE1617E01590552B00D53C63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BE1617E21590552B00D53C63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BE1617E61590552B00D53C63 /* mitakalab-Info.plist */ = {isa = PBXFileReference; path = "mitakalab-Info.plist"; sourceTree = "<group>"; };
+		BE1617E61590552B00D53C63 /* mitakalab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mitakalab-Info.plist"; sourceTree = "<group>"; };
 		BE1617E81590552B00D53C63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE1617EA1590552B00D53C63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BE1617EC1590552B00D53C63 /* mitakalab-Prefix.pch */ = {isa = PBXFileReference; path = "mitakalab-Prefix.pch"; sourceTree = "<group>"; };
-		BE1617ED1590552B00D53C63 /* first_appAppDelegate.h */ = {isa = PBXFileReference; path = first_appAppDelegate.h; sourceTree = "<group>"; };
+		BE1617EC1590552B00D53C63 /* mitakalab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mitakalab-Prefix.pch"; sourceTree = "<group>"; };
+		BE1617ED1590552B00D53C63 /* first_appAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = first_appAppDelegate.h; sourceTree = "<group>"; };
 		BE1617EE1590552B00D53C63 /* first_appAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = first_appAppDelegate.m; sourceTree = "<group>"; };
 		BE1617F11590552B00D53C63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		BE1617F31590552B00D53C63 /* first_appViewController.h */ = {isa = PBXFileReference; path = first_appViewController.h; sourceTree = "<group>"; };
+		BE1617F31590552B00D53C63 /* first_appViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = first_appViewController.h; sourceTree = "<group>"; };
 		BE1617F41590552B00D53C63 /* first_appViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = first_appViewController.m; sourceTree = "<group>"; };
 		BE1617FB1590552B00D53C63 /* mitakalabTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mitakalabTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1617FC1590552B00D53C63 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		BE1618041590552B00D53C63 /* mitakalabTests-Info.plist */ = {isa = PBXFileReference; path = "mitakalabTests-Info.plist"; sourceTree = "<group>"; };
+		BE1618041590552B00D53C63 /* mitakalabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mitakalabTests-Info.plist"; sourceTree = "<group>"; };
 		BE1618061590552B00D53C63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BE1618081590552B00D53C63 /* mitakalabTests.h */ = {isa = PBXFileReference; path = mitakalabTests.h; sourceTree = "<group>"; };
+		BE1618081590552B00D53C63 /* mitakalabTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mitakalabTests.h; sourceTree = "<group>"; };
 		BE1618091590552B00D53C63 /* mitakalabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mitakalabTests.m; sourceTree = "<group>"; };
+		BE161813159057AF00D53C63 /* SpotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpotViewController.h; path = spot/SpotViewController.h; sourceTree = "<group>"; };
+		BE161814159057AF00D53C63 /* SpotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpotViewController.m; path = spot/SpotViewController.m; sourceTree = "<group>"; };
+		BE161815159057AF00D53C63 /* SpotViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SpotViewController.xib; path = spot/SpotViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +119,7 @@
 				BE1617ED1590552B00D53C63 /* first_appAppDelegate.h */,
 				BE1617EE1590552B00D53C63 /* first_appAppDelegate.m */,
 				BE1617F01590552B00D53C63 /* MainStoryboard.storyboard */,
+				BE161818159057C000D53C63 /* spot */,
 				BE1617F31590552B00D53C63 /* first_appViewController.h */,
 				BE1617F41590552B00D53C63 /* first_appViewController.m */,
 				BE1617E51590552B00D53C63 /* Supporting Files */,
@@ -149,6 +155,16 @@
 				BE1618051590552B00D53C63 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE161818159057C000D53C63 /* spot */ = {
+			isa = PBXGroup;
+			children = (
+				BE161813159057AF00D53C63 /* SpotViewController.h */,
+				BE161814159057AF00D53C63 /* SpotViewController.m */,
+				BE161815159057AF00D53C63 /* SpotViewController.xib */,
+			);
+			name = spot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +240,7 @@
 			files = (
 				BE1617E91590552B00D53C63 /* InfoPlist.strings in Resources */,
 				BE1617F21590552B00D53C63 /* MainStoryboard.storyboard in Resources */,
+				BE161817159057AF00D53C63 /* SpotViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +278,7 @@
 				BE1617EB1590552B00D53C63 /* main.m in Sources */,
 				BE1617EF1590552B00D53C63 /* first_appAppDelegate.m in Sources */,
 				BE1617F51590552B00D53C63 /* first_appViewController.m in Sources */,
+				BE161816159057AF00D53C63 /* SpotViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
