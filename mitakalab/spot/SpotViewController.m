@@ -60,17 +60,24 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return dataMain1.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    
-    // Configure the cell...
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+    }
+
+    cell.textLabel.text = [dataMain1 objectAtIndex:indexPath.row];
+    cell.textLabel.textAlignment = UITextAlignmentCenter;
+    cell.textLabel.font = [UIFont systemFontOfSize:17];
+    cell.detailTextLabel.text = [dataDetail1 objectAtIndex:indexPath.row];
+    cell.detailTextLabel.font = [UIFont systemFontOfSize:11];
+    cell.detailTextLabel.textColor = [UIColor darkGrayColor];
     
     return cell;
 }
