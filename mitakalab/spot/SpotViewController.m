@@ -26,7 +26,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    self.navigationController.navigationBar.tintColor = [UIColor brownColor]; //タイトルバーの色    
+    self.tableView.rowHeight = 90.0; //テーブル一行一行の幅の高さ
+    self.navigationItem.title = @"first app"; //タイトルです
+    dataMain1 = [[NSArray alloc] initWithObjects:@"a",@"b", nil];
+    dataDetail1 = [[NSArray alloc] initWithObjects:@"aa", @"bb", nil];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -37,11 +41,6 @@
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    self.navigationController.navigationBar.tintColor = [UIColor brownColor]; //タイトルバーの色    
-    self.tableView.rowHeight = 90.0; //テーブル一行一行の幅の高さ
-    self.navigationItem.title = @"first app"; //タイトルです
-    dataMain1 = [[NSArray alloc] initWithObjects:@"a",@"b", nil];
-    dataDetail1 = [[NSArray alloc] initWithObjects:@"aa", @"bb", nil];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
