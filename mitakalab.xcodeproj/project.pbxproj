@@ -22,6 +22,8 @@
 		BE16180A1590552B00D53C63 /* mitakalabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1618091590552B00D53C63 /* mitakalabTests.m */; };
 		BE161816159057AF00D53C63 /* SpotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE161814159057AF00D53C63 /* SpotViewController.m */; };
 		BE161817159057AF00D53C63 /* SpotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE161815159057AF00D53C63 /* SpotViewController.xib */; };
+		BE3CF80F1597EBD200154D00 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3CF80D1597EBD200154D00 /* DetailViewController.m */; };
+		BE3CF8101597EBD200154D00 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3CF80E1597EBD200154D00 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,9 @@
 		BE161813159057AF00D53C63 /* SpotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpotViewController.h; path = spot/SpotViewController.h; sourceTree = "<group>"; };
 		BE161814159057AF00D53C63 /* SpotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpotViewController.m; path = spot/SpotViewController.m; sourceTree = "<group>"; };
 		BE161815159057AF00D53C63 /* SpotViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SpotViewController.xib; path = spot/SpotViewController.xib; sourceTree = "<group>"; };
+		BE3CF80C1597EBD200154D00 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BE3CF80D1597EBD200154D00 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		BE3CF80E1597EBD200154D00 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +123,7 @@
 			children = (
 				BE1617ED1590552B00D53C63 /* first_appAppDelegate.h */,
 				BE1617EE1590552B00D53C63 /* first_appAppDelegate.m */,
+				BE3CF80B1597EB0200154D00 /* detail */,
 				BE1617F01590552B00D53C63 /* MainStoryboard.storyboard */,
 				BE161818159057C000D53C63 /* spot */,
 				BE1617F31590552B00D53C63 /* first_appViewController.h */,
@@ -165,6 +171,16 @@
 				BE161815159057AF00D53C63 /* SpotViewController.xib */,
 			);
 			name = spot;
+			sourceTree = "<group>";
+		};
+		BE3CF80B1597EB0200154D00 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				BE3CF80C1597EBD200154D00 /* DetailViewController.h */,
+				BE3CF80D1597EBD200154D00 /* DetailViewController.m */,
+				BE3CF80E1597EBD200154D00 /* DetailViewController.xib */,
+			);
+			name = detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +257,7 @@
 				BE1617E91590552B00D53C63 /* InfoPlist.strings in Resources */,
 				BE1617F21590552B00D53C63 /* MainStoryboard.storyboard in Resources */,
 				BE161817159057AF00D53C63 /* SpotViewController.xib in Resources */,
+				BE3CF8101597EBD200154D00 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +296,7 @@
 				BE1617EF1590552B00D53C63 /* first_appAppDelegate.m in Sources */,
 				BE1617F51590552B00D53C63 /* first_appViewController.m in Sources */,
 				BE161816159057AF00D53C63 /* SpotViewController.m in Sources */,
+				BE3CF80F1597EBD200154D00 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +466,7 @@
 				BE16180F1590552B00D53C63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE1618101590552B00D53C63 /* Build configuration list for PBXNativeTarget "mitakalabTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +475,7 @@
 				BE1618121590552B00D53C63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

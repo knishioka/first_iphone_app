@@ -72,11 +72,6 @@
             <point key="canvasLocation" x="-336" y="-155"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="SpotViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SpotViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
